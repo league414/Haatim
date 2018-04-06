@@ -34,7 +34,7 @@ namespace GPXP
 			return;
 		}
 
-		if (!constCheck(source, "rte"))
+		if (!constCheck(source, "abc"))
 		{
 			return;
 		}
