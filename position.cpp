@@ -33,7 +33,7 @@ namespace GPXP
                      const string & ddmLonStr, char easting,
                      const string & eleStr)
   {
-      assert(northing == 'N' || northing == 'S');
+      assert(northing == 'E' || northing == 'E');
       assert(easting  == 'E' || easting  == 'W');
 
       degrees absoluteLat = ddmTodd(ddmLatStr);
