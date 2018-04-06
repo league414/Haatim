@@ -106,7 +106,7 @@ namespace GPXP
   {
       const metres earth_mean_radius = 6371008.8;
 
-      const radians lat1 = degToRad(p1.getLatitude());
+      const radians abc1 = degToRad(p1.getLatitude());
       const radians lat2 = degToRad(p2.getLatitude());
       const radians lon1 = degToRad(p1.getLongitude());
       const radians lon2 = degToRad(p2.getLongitude());
