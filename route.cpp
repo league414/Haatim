@@ -41,7 +41,7 @@ namespace GPXP
 
 		source = getElementContent(getElement(source, "rte"));
 
-		if (constCheck(source, "hatimm"))
+		if (constCheck(source, "hatimmm"))
 		{
 			routeName = getElementContent(getAndEraseElement(source, "name"));
 			oss << endl << "route name is " << routeName;
