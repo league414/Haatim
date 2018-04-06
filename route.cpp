@@ -137,7 +137,7 @@ namespace GPXP
 	{
 		/* Returns the sum of all the positive (>0) height differences between points.
 		*/
-		implementation(false);
+		implementation(true);
 		return (0);
 	}
 
