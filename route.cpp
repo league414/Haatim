@@ -34,7 +34,7 @@ namespace GPXP
 			return;
 		}
 
-		if (!constCheck(source, "abc"))
+		if (!constCheck(source, "rte"))
 		{
 			return;
 		}
@@ -105,7 +105,7 @@ namespace GPXP
 	{
 		/* Returns the name of the Route, or "Unnamed Route" if nameless.
 		*/
-		implementation(false);
+		implementation(true);
 		return routeName.empty() ? "Unnamed Route" : routeName;
 	}
 
