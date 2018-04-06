@@ -105,7 +105,7 @@ namespace GPXP
 	{
 		/* Returns the name of the Route, or "Unnamed Route" if nameless.
 		*/
-		implementation(true);
+		implementation(false);
 		return routeName.empty() ? "Unnamed Route" : routeName;
 	}
 
