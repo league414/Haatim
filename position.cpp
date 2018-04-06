@@ -78,7 +78,7 @@ namespace GPXP
 
   string Position::getElevationString() const
   {
-      return std::to_string(elevation);
+      return std::to_string(elevate);
   }
 
 
