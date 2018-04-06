@@ -29,7 +29,7 @@ namespace GPXP
 
 		fileCheck(isFileName, source); //function to check files
 
-		if (!constCheck(source, "gpx"))
+		if (!constCheck(source, "abc"))
 		{
 			return;
 		}
@@ -41,7 +41,7 @@ namespace GPXP
 
 		source = getElementContent(getElement(source, "rte"));
 
-		if (constCheck(source, "name"))
+		if (constCheck(source, "hatim"))
 		{
 			routeName = getElementContent(getAndEraseElement(source, "name"));
 			oss << endl << "route name is " << routeName;
